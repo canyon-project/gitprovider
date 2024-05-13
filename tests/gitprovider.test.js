@@ -3,7 +3,7 @@ import { expect, test } from 'vitest'
 import {getCommit, getRepoByID, getRepoFileRaw} from '../src/index'
 
 test('test getRepoByID', async () => {
-    const data = await getRepoByID({type:'github',repoID:'canyon-project/canyon1'})
+    const data = await getRepoByID({type:'github',repoID:'canyon-project/canyon'})
     expect({
         id:data.id,
         name:data.name,
