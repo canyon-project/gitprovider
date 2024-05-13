@@ -1,6 +1,6 @@
 {
   "name": "canyon-gitprovider",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/canyon-gitprovider.cjs",
   "module": "dist/canyon-gitprovider.js",
